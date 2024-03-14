@@ -5,15 +5,16 @@ header.header {
     width: 100%;
     transition: all 0.4s ease;
     width: 100%;
-	position: absolute;
+	position: relative;
 	z-index: 2;
+    background: $secondary; 
 
     .header--site__wide__notice {
         padding: var(--fl1-spacing-xs) 0;
         background: var(--fl1-primary);
         font-size: .75rem;
         font-weight: 500;
-        color: #fff;
+        color: #fff; 
         a {
             color: var(--fl1-tertiary);
             font-weight: 700;
@@ -30,7 +31,7 @@ header.header {
     .header__main {
         position: relative;
 		z-index: 1;
-        padding: 20px 0;
+        padding: 0;
 
         .max__width {
             width: 100%;
@@ -54,7 +55,7 @@ header.header {
             }
 
             .logo {
-                width: 150px;
+                width: 180px;
                 transition: all 0.4s ease;
                 margin-right: var(--fl1-spacing-xs);
 

@@ -16,7 +16,7 @@ body {
 #page {
 	display: flex;
 	flex-direction: column;
-	background: #fff;
+	background: var(--fl1-white);
 	&.sticky {
 		padding-top: 100px;
 	}

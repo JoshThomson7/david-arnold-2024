@@ -7,7 +7,7 @@
       "uuidString" : "E3A06CD2-C4DD-478B-B0DB-996D30A81E10"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34564",
   "files" : {
     "\/404.php" : {
       "cB" : 0,
@@ -368,6 +368,110 @@
       "iS" : 15782,
       "oA" : 0,
       "oAP" : "\/img\/hang-bg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-black-white.jpg" : {
+      "ft" : 16384,
+      "iS" : 936213,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-black-white.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-black.png" : {
+      "ft" : 32768,
+      "iS" : 145810,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-gold.jpg" : {
+      "ft" : 16384,
+      "iS" : 1100130,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-gold.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-original-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 979988,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-original-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-original.png" : {
+      "ft" : 32768,
+      "iS" : 147315,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-original.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-reverse.png" : {
+      "ft" : 32768,
+      "iS" : 148720,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-reverse.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-white-black.jpg" : {
+      "ft" : 16384,
+      "iS" : 965282,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-white-black.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/logo-white.png" : {
+      "ft" : 32768,
+      "iS" : 143329,
+      "oA" : 0,
+      "oAP" : "\/img\/logo-white.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8145,7 +8249,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 652874357.77309203,
-    "displayValue" : "dojo-films-2024",
+    "displayValue" : "david-arnold-2024",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
@@ -8974,9 +9078,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -8988,6 +9089,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1

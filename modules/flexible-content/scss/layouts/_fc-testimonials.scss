@@ -3,10 +3,10 @@
 */
 
 .fc_testimonials {
-    background: var(--fl1-primary);
-    width: 70%;
-    margin: 0 auto;
-    border-radius: 45px;
+    // background: var(--fl1-primary);
+    // width: 70%;
+    // margin: 0 auto;
+    // border-radius: 45px;
 
     .fc-layout-heading{
         h2{color: white;}
@@ -15,7 +15,8 @@
     .testimonials__wrapper {
 
         article {
-            .inner { padding: 20px;}
+            
+            .inner { padding: 20px; width: 50%!important; margin: 0 auto;}
 
             .testimonial__meta { flex:1 0 100%;
 
@@ -24,9 +25,9 @@
                 }
 
                 .stars {
-                    display: flex; justify-content: center;
+                    display: flex; justify-content: center; margin-bottom: 20px;
                     @include breakpoint(mamabear) { margin-bottom:10px;}
-                    span { padding: 0 3px; color:var(--fl1-secondary); font-size: 20px;}
+                    span { padding: 0 3px; color:var(--fl1-tertiary); font-size: 30px;}
                 }
             }
 

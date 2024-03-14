@@ -3,19 +3,19 @@ $primaryFont: 'Sora Regular', sans-serif;
 $secondaryFont: 'Objectivity', sans-serif;
 $headingFont: 'Sora Bold'; 
 $baseFontSize: 16px;
-$baseFontColor: #5F6572;
+$baseFontColor: #000;
 
 // Colours
 $primary: #000;
 $primaryLight: #F6F2FD;
-$secondary: #ffffff26;
-$tertiary: #4891E1;
+$secondary: #363636;
+$tertiary: #A67B27;
 $quaternary: #CAD507;
 $lightgrey: #eef0fb;
 $text: $baseFontColor;
 $textLight: #caced5;
 $border: #d6dbe1;
-$white: #fff;
+$white: #F7F7F7;
 $borderDark: lighten($text, 35%);
 $success: #64c82d;
 $warning: #ffc458;
