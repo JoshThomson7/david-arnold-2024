@@ -44,7 +44,7 @@
 						</ul>
 
 						<ul class="buttons">
-							<a href="#" class="button tertiary">Contact <i class="fa fa-arrow-right"></i></a>
+							<a href="/contact" class="button tertiary">Contact</a>
 						</ul>
 					</div>
 				</div><!-- max__width -->

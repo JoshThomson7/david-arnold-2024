@@ -33,12 +33,11 @@ if(!$text_align) {
         <article class="<?php echo $items_per_row; ?>">
             <?php if(get_sub_field('icon_grid_links_to')): ?><a href="<?php the_sub_field('icon_grid_links_to') ?>"><?php endif; ?>
                 <div class="icon-grid__content">
+                    <?php if(get_sub_field('icon_grid_icon') || get_sub_field('icon_grid_icon_img')): ?>
+                        <div class="icon-grid__icon"><?php echo $icon; ?></div>
+                    <?php endif; ?>
                     <?php if(get_sub_field('icon_grid_heading')): ?>
-                        <h4><?php the_sub_field('icon_grid_heading'); ?>
-                            <?php if(get_sub_field('icon_grid_icon') || get_sub_field('icon_grid_icon_img')): ?>
-                                <div class="icon-grid__icon"><?php echo $icon; ?></div>
-                            <?php endif; ?>
-                        </h4>
+                        <h4><?php the_sub_field('icon_grid_heading'); ?></h4>
                     <?php endif; ?>
                     <?php if(get_sub_field('icon_grid_content')): ?><?php the_sub_field('icon_grid_content'); ?><?php endif; ?>
                     <?php if(get_sub_field('icon_grid_button_text') && get_sub_field('icon_grid_button_link')):?>

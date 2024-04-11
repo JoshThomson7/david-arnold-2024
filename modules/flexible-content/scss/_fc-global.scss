@@ -167,12 +167,10 @@
 
 // Background colours
 $fc_bk_colours: (
-    blue: #fff,
     primary: var(--fl1-primary),
     secondary: var(--fl1-secondary),
     tertiary: var(--fl1-tertiary),
     dark: var(--fl1-tertiary),
-    lightgrey: var(--fl1-lightgrey),
 );
 
 @each $key, $fc_bk_colour in $fc_bk_colours {
@@ -221,6 +219,8 @@ $fc_bk_colours: (
             .fc-layout-heading {
 				h2, p{color: white;}
             }
+
+			h1, h2, h3, h3, h5, h6, p{color: white;}
         }
     }
 }

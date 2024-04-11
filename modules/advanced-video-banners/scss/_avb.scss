@@ -67,7 +67,7 @@ section.avb {
 				display: flex;
 				align-items: center;
 				width: 100%;
-				padding: 6rem 0 0;
+				// padding: 6rem 0 0;
 
 				@include breakpoint(cousinbear) {
 					padding: 3rem 0;
@@ -294,8 +294,12 @@ section.avb {
 
 			.avb-banner {
 				height: auto;
-				min-height: 270px;
+				min-height: 200px;
 				padding: 60px 0;
+
+				.avb-banner__caption-wrap{
+					width: 100%; text-align: center;
+				}
 			}
 		}
 

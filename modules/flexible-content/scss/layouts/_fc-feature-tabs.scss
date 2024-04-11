@@ -20,7 +20,7 @@
 		}
 
         figure {
-            width: 50%;
+            width: 30%;
             padding: var(--fl1-spacing-sm);
             position: relative;
             transform: translateX(-130px) scale(1.14);
@@ -120,7 +120,7 @@
                     }
                     
                     &.active a {
-                        background: var(--fl1-primary);
+                        background: var(--fl1-tertiary);
                     }
                 }
 

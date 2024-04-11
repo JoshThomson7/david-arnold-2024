@@ -19,14 +19,14 @@ Icon Grid
 			color:inherit;
 			display: flex;
 			flex-direction: column;
+            align-items: center;
 			gap: var(--fl1-spacing-sm);
-            border: 1px solid #5F65725E;
             border-radius: 44px;
             background: white;
+            box-shadow: 0 0 10px var(--fl1-secondary);
 
             &:first-child{
                 .icon-grid__content{
-                    border-left: 5px solid var(--fl1-tertiary);
 
                     .icon-grid__icon{
                         span{background:  var(--fl1-tertiary);}
@@ -36,7 +36,6 @@ Icon Grid
 
             &:nth-child(2){
                 .icon-grid__content{
-                    border-left: 5px solid var(--fl1-secondary);
 
                     .icon-grid__icon{
                         span{background:  var(--fl1-secondary);}
@@ -48,7 +47,7 @@ Icon Grid
             &.full-width { width:100%;}
 
             /* Half */
-            &.one-half { width:math.percentage(math.div(1,2));
+            &.one-half { width: 48%;
                 @include breakpoint(babybear){ width:100%;}
             }
 
@@ -82,12 +81,11 @@ Icon Grid
             .icon-grid__content {
 				display: flex;
 				flex-direction: column;
-				gap: var(--fl1-spacing-xs);
-                border-left: 5px solid var(--fl1-primary);
-                padding-left: 20px;
+                align-items: center;
+				gap: var(--fl1-spacing-md);
 
                 h4 { font-size: 21px; color: var(--fl1-primary); line-height: 29px; font-weight: 700; display: flex; align-items: center; justify-content: space-between;}
-                p { font-size: 16px; line-height: 23px; color: var(--fl1-text);
+                p { font-size: 18px; line-height: 23px; color: var(--fl1-text);
                     &:last-of-type { margin-bottom: 0;}
                 }
 
