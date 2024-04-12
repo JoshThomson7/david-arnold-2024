@@ -14,7 +14,7 @@ Carousel
     .carousel_images {
         .carousel_image { display: flex !important; justify-content: center;
             a { display: flex; justify-content: center;}
-            img { width: auto; max-height: 48px; max-width: 132px;}
+            img { width: auto;}
         }
     }
 }
