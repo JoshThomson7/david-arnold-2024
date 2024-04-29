@@ -121,6 +121,12 @@
 				}
 			}
 
+			&.fc-bk-theme_white {
+				&:after { 
+					background: white;
+				}
+			}
+
 			&.fc-background-shrink {
 				&:after { 
 					height: 75%;
@@ -171,6 +177,7 @@ $fc_bk_colours: (
     secondary: var(--fl1-secondary),
     tertiary: var(--fl1-tertiary),
     dark: var(--fl1-tertiary),
+	theme_white: white,
 );
 
 @each $key, $fc_bk_colour in $fc_bk_colours {
