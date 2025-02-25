@@ -35,16 +35,16 @@
 					<div class="header__main--right">
 						<?php include get_stylesheet_directory().'/modules/mega-menu.php'; ?>
 
+						<ul class="buttons">
+							<a href="/contact" class="button tertiary">Contact</a>
+						</ul>
+
 						<ul class="actions"> 
 							<li class="burger-menu">
 								<a href="#nav_mobile">
 									<i class="fal fa-bars"></i>
 								</a>
 							</li>
-						</ul>
-
-						<ul class="buttons">
-							<a href="/contact" class="button tertiary">Contact</a>
 						</ul>
 					</div>
 				</div><!-- max__width -->
