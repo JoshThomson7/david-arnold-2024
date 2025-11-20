@@ -376,7 +376,8 @@ section.avb {
 
 		&.avb-dots-left {
 			.slick-dots {
-				left: 0;
+				left: 20px;
+				bottom: 40px;
 				justify-content: flex-start;
 				padding-left: calc((100vw - 1185px) / 2);
 

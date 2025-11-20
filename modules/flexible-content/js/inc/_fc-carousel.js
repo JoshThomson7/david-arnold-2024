@@ -98,7 +98,7 @@ var Carousels = (function($) {
 			if(testims.length > 0) {
 				testims.each(function(index, testim) {
 					var testimH = $(testim).outerHeight()
-					if(testimH > 120) {
+					if(testimH > 220) {
 						$(testim).addClass('trunc')
 						$(testim).closest('.inner').append('<span class="testim__read-more">+ read more</span>')
 					}

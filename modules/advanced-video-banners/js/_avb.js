@@ -7,7 +7,6 @@
         if(slideWrapper.length > 0) {
 
             var iframes = slideWrapper.find('.embed-player'),
-			firstSlide = slideWrapper.find('.avb-banner').first() ?? 6000,
             lazyImages = slideWrapper.find('.avb-banner__medium.image'),
             lazyCounter = 0;
             
@@ -17,7 +16,7 @@
                 setTimeout(function(){
                     playPauseVideo(slick,'play');
                 }, 1000);
-                resizePlayer(iframes, 16/9);
+                //resizePlayer(iframes, 16/9);
             });
 
             slideWrapper.on('beforeChange', function(event, slick) {
@@ -32,7 +31,6 @@
                 playPauseVideo(slider, action);
 
 				var duration = slider.find('.slick-current').data('duration');
-				console.log(duration);
 				slider.slick('slickSetOption', 'autoplaySpeed', duration);
             });
 
@@ -44,11 +42,9 @@
                 }
             });
 
-			console.log(firstSlide.data('duration'));
-
             //start the slider
             slideWrapper.slick({
-                autoplaySpeed: firstSlide.data('duration'),
+                autoplaySpeed: 5000,
                 lazyLoad: 'progressive',
                 speed: 600,
                 arrows: false,
@@ -58,9 +54,9 @@
             });
 
             // Resize event
-            $(window).on('resize.slickVideoPlayer', function() { 
-                resizePlayer(iframes, 16/9);
-            });
+            // $(window).on('resize.slickVideoPlayer', function() { 
+            //     resizePlayer(iframes, 16/9);
+            // });
 
         }
 
@@ -70,12 +66,6 @@
             $("html:not(:animated),body:not(:animated)").animate({
                 scrollTop: destination
             }, 800);
-        });
-
-        formDistance();
-
-        $(window).on('resize', function(){
-            formDistance();
         });
 
     });
@@ -176,21 +166,6 @@
             });
             }
         });
-    }
-
-    function formDistance() {
-
-        var windowWidth = $(window).width();
-
-        if(windowWidth <= 1000) {
-            var avbBannerHeight = $('.avb-banner').height();
-            var captionHeight = $('.avb-banner__caption').height();
-            var marginTop = (avbBannerHeight - captionHeight) - 50;
-            $('#atm_form').css({marginTop: -(marginTop)+'px'});
-        } else { 
-            $('#atm_form').css({marginTop: '0'});
-        }
-
     }
 
 

@@ -55,9 +55,11 @@ header.header {
             }
 
             .logo {
-                width: 180px;
+                width: 250px;
                 transition: all 0.4s ease;
                 margin-right: var(--fl1-spacing-xs);
+
+                @include breakpoint(600px){width: 180px;}
 
 				svg {
 					fill: var(--fl1-white);

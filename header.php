@@ -10,7 +10,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-	<link rel='stylesheet' href='https://charlottes-bakery.wpdev3.com/wp-content/themes/charlottes-bakery-2023/modules/fl1-woo/assets/fl1-woo.min.css' type='text/css' media='all' />
 
     <?php wp_head(); ?>
 </head>
